@@ -1,0 +1,7 @@
+/* a good amount of my website is composed of two column grids */
+div.two-col-grid {
+    /* make it a grid */
+    display: grid;
+    /* each column takes up 1/2 the space */
+    grid-template-columns: 1fr 1fr;
+}
