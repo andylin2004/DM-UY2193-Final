@@ -14,3 +14,19 @@ div.two-col-grid {
 caption {
     font-size: 1pt;
 }
+
+#navbar {
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    padding: 0%;
+}
+
+#navbar div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar * {
+    margin-top: auto;
+    margin-bottom: auto;
+}
