@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     let navbar = document.getElementById("navbar");
+    let navbar_dummy = document.getElementById("navbar_dummy");
     let websiteTitle = document.createElement("h1");
     let websiteTitleURL = document.createElement("a");
     websiteTitleURL.href = "index.html";
