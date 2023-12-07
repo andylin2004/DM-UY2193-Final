@@ -33,16 +33,18 @@ caption {
     position: sticky;
     top: 0;
     left: 0;
-    width: 100%;
     background-color: #333333;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    padding: 1%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #navbar div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #navbar * {
@@ -54,13 +56,14 @@ caption {
     text-align: center;
 }
 
-div:not(#navbar div, #navbar) {
-    padding-top: 1vh;
+div:not(#navbar div, #navbar, .card:not(.banner), .bodycontent) {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
-.bodycontent > .card.banner, .bodycontent > .card:not(.banner) > * {
-    padding-left: 20px;
-    padding-right: 20px;
+.bodycontent > .card.banner:not(.center), .bodycontent > .card:not(.banner) > *, .bodycontent.card {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .card:not(.banner) div {
@@ -84,6 +87,6 @@ div:not(#navbar div, #navbar) {
     filter: drop-shadow(5px, 5px)
 }
 
-.card.banner.center img, dummy img{
-    height: 75vh;
+.card.banner.center img, .dummy img{
+    height: calc(100vh - 300px);
 }
