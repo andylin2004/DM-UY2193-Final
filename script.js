@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let websiteTitle = document.createElement("h1");
     let websiteTitleURL = document.createElement("a");
     websiteTitleURL.href = "index.html";
-    websiteTitleURL.innerText = "💀💀💀💀";
+    websiteTitleURL.innerText = "sp00nful 0f h3ll";
     websiteTitle.appendChild(websiteTitleURL);
     navbar.appendChild(websiteTitle);
 

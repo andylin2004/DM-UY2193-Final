@@ -52,6 +52,19 @@ caption {
     margin-bottom: auto;
 }
 
+#navbar a {
+    color: #ffffff;
+    transition-property: color;
+    transition-duration: 500ms;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #aaaaaa;
+    transition-property: color;
+    transition-duration: 500ms;
+}
+
 .center {
     text-align: center;
 }
